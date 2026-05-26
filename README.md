@@ -1,5 +1,16 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="320" alt="Laravel Logo"></a></p>
 
+<p align="center">
+  <b>Tecnologias usadas:</b><br>
+  <img src="https://img.shields.io/badge/PHP-8.x-777BB4?logo=php&logoColor=white" alt="PHP 8.x"> 
+  <img src="https://img.shields.io/badge/Laravel-10-FF2D20?logo=laravel&logoColor=white" alt="Laravel 10"> 
+  <img src="https://img.shields.io/badge/JavaScript-ES2021-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript"> 
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?logo=tailwindcss&logoColor=white" alt="Tailwind CSS"> 
+  <img src="https://img.shields.io/badge/HTML5-5ED8FF?logo=html5&logoColor=white" alt="HTML5"> 
+  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3"> 
+  <img src="https://img.shields.io/badge/Node.js-18.x-339933?logo=node.js&logoColor=white" alt="Node.js">
+</p>
+
 # auth-app
 
 Aplicação Laravel de exemplo com autenticação, CRUD de categorias e posts, upload de imagens
@@ -35,6 +46,15 @@ e rodar a aplicação localmente no Windows (XAMPP ou PHP built-in).
 - Node.js + npm
 - MySQL (ou outro DB suportado) — XAMPP inclui MySQL/MariaDB
 - Git (opcional)
+
+## O que é npm e Composer?
+
+- `npm` é o gerenciador de pacotes do Node.js. Ele instala as dependências JavaScript e ferramentas de frontend usadas no projeto,
+  como o Vite e o Tailwind CSS. No `auth-app`, você usa `npm install` para baixar essas dependências e `npm run dev` ou `npm run build`
+  para gerar o CSS e o JavaScript da aplicação.
+
+- `Composer` é o gerenciador de pacotes do PHP. Ele instala bibliotecas e dependências do backend Laravel, como o próprio framework,
+  provedores de autenticação, e outras ferramentas PHP necessárias. No projeto, `composer install` prepara o ambiente PHP.
 
 ## Passo a passo: baixar e executar (Windows)
 
